@@ -2,7 +2,6 @@
 
 ![Japan Express](images/LOGO_Japan_Express.png)
 
-<base target="_blank">
-Website Link: [Japan Express](https://vandriesschejelle.be)
+Website Link: [Japan Express](https://vandriesschejelle.be){:target="_blank"}
 
 Die in een website genaamt Japan Express die gemaakt is voor een eindopdracht voor Web-1 te HoGent
