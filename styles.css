@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color Palet */
+    --Main-color: #FC6664;
+    --White-color: #ECF3FE;
+    --Light_Grey-color: #E1E3F0;
+    --Dark_Grey-color: #CFD8EA;
+    --Black-color: #535864;
+
+    /* Font Weight */
+    --medium: 500;
+    --semibold: 600;
+
+    /* Font Size */
+    /*  12
+        14
+        16
+        20
+        24
+        32
+        40
+        64
+    */
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--White-color);
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    height: 10vh;
+    width: 90vw;
+    margin: 0 5vw;
+    background-color: var(--White-color);
+    padding: 0;
+}
+
+.navbar .logo img {
+    height: 8vh;
+    padding: 5px 10px;
+}
+
+.navbar-toggler .fa-bars{
+    color: var(--Main-color);
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: var(--Main-color);
+}
+
+.nav-link,
+.navbar-brand {
+    color: var(--White-color);
+    font-size: 1.2em;
+    font-weight: var(--semibold);
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: var(--Black-color);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.landing_page {
+    position: relative;
+    width: 90vw;
+    margin: 0 5vw;
+    padding: 10vh 0;
+}
+
+header {
+    height: 40vh;
+    border: 2px solid var(--Black-color);
+    background-image: url(images/Japan_BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .welcome {
+    z-index: -1;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 50%;
+}
+
+.title_box, .info_box, .trips_box, .gallery_box, .contact_box {
+    padding: 10px ;
+    margin-top: -2px;
+    border: 2px solid var(--Black-color);
+}
+
+.title_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.title_box .title {
+    color: var(--Dark_Grey-color);
+    font-size: 2em;
+    font-weight: var(--semibold);
+}
+
+.title_box .sub_title {
+    color: var(--Black-color);
+    font-size: 1em;
+    font-weight: var(--medium);
+    margin: 0;
+}
+
+.footer_box {
+    margin-top: -2px;
+    border: 2px solid var(--Black-color);
+}
+
+main h1 {
+    color: var(--Main-color);
+    font-size: 1.6em;
+    font-weight: var(--semibold);
+}
+
+main h2 {
+    color: var(--Black-color);
+    font-size: 0.8em;
+    font-weight: var(--medium);
+}
+
+main .info_box .info_text_box {
+    width: 80%;
+    margin: 20px auto;
+}
+
+main .info_box .info_text_box p{
+    margin: 5px;
+    color: var(--Black-color);
+    font-size: 0.8em;
+    font-weight: var(--medium);
+}
+
+.logo img {
+    height: 8vh;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    
+    .navbar-nav {
+        width: 100%;
+        background-color: var(--Main-color);
+    }
+
+    .nav-item {
+        justify-content: flex-start;
+    }
+
+    .nav-link,
+    .navbar-brand {
+        margin: 0 10px;
+        color: var(--White-color);
+    }  
+
+    header .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 50vw;
+        margin: 8vh auto;
+    }
+
+    header .welcome .welcome_title {
+        font-size: 1.6em;
+        color: var(--White-color);
+    }
+}
+
+/* Tablet Styles  */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+}
