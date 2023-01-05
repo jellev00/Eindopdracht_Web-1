@@ -1,0 +1,41 @@
+.kyoto {
+    border-radius: 10px;
+    background-image: url(images/trips_images/trip_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.himeji {
+    border-radius: 10px;
+    background-image: url(images/trips_images/trip_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tokyo {
+    border-radius: 10px;
+    background-image: url(images/trips_images/trip_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fuji {
+    border-radius: 10px;
+    background-image: url(images/trips_images/trip_4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hiroshima {
+    border-radius: 10px;
+    background-image: url(images/trips_images/trip_5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.miyajima {
+    border-radius: 10px;
+    background-image: url(images/trips_images/trip_6.jpg);
+    background-size: cover;
+    background-position: center;
+}
