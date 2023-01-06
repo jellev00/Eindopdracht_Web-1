@@ -1,3 +1,5 @@
+swal("Welcome to Japan Express!", "Dit is een eindopdracht voor het vak Web-1 te HoGent. \nDeze website is gemaakt door Jelle Vandriessche uit PROG 1 1B.");
+
 $(document).ready(function(){
     $('.header').height($(window).height());
 });
