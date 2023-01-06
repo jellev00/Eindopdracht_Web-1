@@ -292,7 +292,13 @@ input[type='radio']:checked:after {
 }
 
 .footer_container {
-    padding: 6vh;
+    padding: 4vh;
+}
+
+.footer_box .container .main_row {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 
 .footer_logo {
